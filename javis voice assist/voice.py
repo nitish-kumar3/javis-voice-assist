@@ -5,6 +5,11 @@ import datetime
 import pyjokes
 import time
 
+
+
+
+ 
+
 def speechtotxt():
     recognizer = sr.Recognizer()   #Recognizer class speech_recognition me hota jo sab speech ko appne pass rkhta h
     with sr.Microphone() as source:  
@@ -74,4 +79,5 @@ if __name__ == '__main__':  # ye programm ko split kr dega yeha se do
 else:
 
     print("thank")
+
 
