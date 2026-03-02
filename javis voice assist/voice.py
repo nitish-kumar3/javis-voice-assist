@@ -1,6 +1,5 @@
 
 
-
 import pyttsx3
 import speech_recognition as sr
 import webbrowser  
@@ -77,6 +76,7 @@ if __name__ == '__main__':  # ye programm ko split kr dega yeha se do
 else:
 
     print("thank")
+
 
 
 
