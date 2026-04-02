@@ -6,7 +6,6 @@ import pyjokes
 import time
 
 
-
 def speechtotxt():
     recognizer = sr.Recognizer()   #Recognizer class speech_recognition me hota jo sab speech ko appne pass rkhta h
     with sr.Microphone() as source:  
